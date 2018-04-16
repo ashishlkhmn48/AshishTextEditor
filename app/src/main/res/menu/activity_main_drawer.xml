@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_display_all"
+            android:title="Display Everything" />
+        <item
+            android:id="@+id/nav_display_multiple_lines"
+            android:title="Display Multiple Lines" />
+
+        <item
+            android:id="@+id/nav_insert_at_line"
+            android:title="Insert at Line" />
+
+        <item
+            android:id="@+id/nav_delete_single_line"
+            android:title="Delete a Line" />
+        <item
+            android:id="@+id/nav_delete_multiple_lines"
+            android:title="Delete Multiple Lines" />
+
+        <item
+            android:id="@+id/nav_copy"
+            android:title="Copy Multiple Lines" />
+        <item
+            android:id="@+id/nav_paste"
+            android:title="Paste at Line" />
+    </group>
+
+</menu>

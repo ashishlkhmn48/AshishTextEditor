@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.ashishlakhmani.ashishtexteditor.CustomEditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="Enter Text From Here"
+        android:inputType="textMultiLine"
+        android:paddingBottom="20dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="50dp"
+        android:paddingTop="20dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -2,7 +2,7 @@ package com.ashishlakhmani.ashishtexteditor;
 
 /*
 Custom Defined EditText Class to Insert Line Number for Each Line.
- */
+  */
 
 import android.content.Context;
 import android.graphics.Canvas;
